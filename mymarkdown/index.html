@@ -6,6 +6,19 @@
   </head>
   <body>
     <div id="app"></div>
+    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyAZ_ZY7NuV7yy7fHT7HfAa8FA3GoDVpQr4",
+            authDomain: "vue-project-d7cee.firebaseapp.com",
+            databaseURL: "https://vue-project-d7cee.firebaseio.com",
+            projectId: "vue-project-d7cee",
+            storageBucket: "",
+            messagingSenderId: "914741182904"
+        };
+        firebase.initializeApp(config);
+    </script>
     <script src="/dist/build.js"></script>
   </body>
 </html>
